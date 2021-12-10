@@ -16,8 +16,8 @@ export OMP_NUM_THREADS=1
 : ${LEARNING_RATE:=0.1}
 
 # Adjust these when the amount of data changes
-: ${EPOCHS:=1000}
-: ${EPOCHS_PER_CHECKPOINT:=10}
+: ${EPOCHS:=15}
+: ${EPOCHS_PER_CHECKPOINT:=5}
 : ${WARMUP_STEPS:=1000}
 : ${KL_LOSS_WARMUP:=100}
 
