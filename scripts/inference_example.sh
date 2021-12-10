@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 : ${WAVEGLOW:="pretrained_models/waveglow/nvidia_waveglow256pyt_fp16.pt"}
-: ${FASTPITCH:="output/FastPitch_checkpoint_10.pt"}
+: ${FASTPITCH:="output/FastPitch_checkpoint_15.pt"}
 : ${BATCH_SIZE:=32}
 : ${PHRASES:="phrases/phrase_1_64.txt"}
 : ${OUTPUT_DIR:="./output/audio_$(basename ${PHRASES} .tsv)"}
